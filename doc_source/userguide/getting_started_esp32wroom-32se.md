@@ -159,7 +159,7 @@ idf.py -p /dev/cu.usbserial-00101301B flash
 1. Configure cmake in the `build` directory and build the firmware image with the following command\.
 
    ```
-   idf.py -DVENDOR=espressif -DBOARD=esp32_ecc608a_devkitc -DCOMPILER=xtensa-esp32 build
+  idf.py -DVENDOR=espressif -DBOARD=esp32s2 -DCOMPILER=xtensa-esp32 build
    ```
 
    You should see output like this following example\.
